@@ -1,0 +1,190 @@
+html {
+  overflow-x: hidden;
+}
+
+header {
+  width: 77.5%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.luxury_hotels {
+  background-color: #e0b973;
+  color: black;
+  padding: 38px 30px 40px 40px;
+  border: 1px solid #000000;
+  border-radius: 0 0 50px 50px;
+}
+
+.luxury_hotels h1 {
+  font-family: Adobe Garamond Pro;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: #14274a;
+}
+
+#hotels {
+  font-family: Adobe Garamond Pro;
+  font-size: 10px;
+  font-weight: 700;
+  margin-left: 20%;
+  text-align: center;
+  color: #14274a;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 90px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.48px;
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  gap: 5vh;
+  flex-direction: column;
+}
+
+.main_content {
+  width: 77.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  margin: 0 auto;
+}
+
+.main_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_1 h1 {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+}
+
+.main_1 p {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: #14274a;
+}
+
+.main_1 button {
+  border: 1px solid #e0b973;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+  letter-spacing: 0.05em;
+  background-color: #e0b973;
+}
+
+.main_1 img {
+  background: #14274a33;
+}
+
+footer {
+  width: 100%;
+  margin-top: 10vh;
+  background-color: #1b2a44;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: row;
+  width: 77.5%;
+  gap: 15vw;
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+}
+
+.first_col {
+  color: white;
+  padding: 30px;
+  text-align: left;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.logo {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logo span {
+  font-family: Adobe Garamond Pro;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 10.8px;
+  letter-spacing: 0.6em;
+  margin-left: 1.5vw;
+}
+
+.contact_info {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+}
+
+.contact_info p {
+  margin-bottom: 10px;
+}
+
+.second_col,
+.third_col,
+.fourth_col {
+  display: flex;
+  gap: 3vh;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.second_col a,
+.third_col a,
+.fourth_col a {
+  text-decoration: none;
+  color: white;
+}
+
+.third_col {
+  gap: 2vh;
+}
+
+.fourth_col {
+  justify-content: center;
+}
